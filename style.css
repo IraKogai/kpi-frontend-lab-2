@@ -1,0 +1,110 @@
+.color1 {
+    background-color: #478f8f;
+}
+.color2 {
+    background-color: #f5f547;
+}
+.color1:hover {
+    background-color: #f5f547;
+}
+.color2:hover {
+    background-color: #478f8f;
+}
+
+.clock{
+    background-color: rgb(219, 218, 218);
+    height: 200px;
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border: 5px solid rgb(22, 22, 22);
+    border-radius: 15%;
+}
+
+.point{
+    background-color: red;
+    height: 15px;
+    width: 15px;
+    margin-left: -5px;
+    margin-top: -5px;
+    border: 1px solid rgb(17, 9, 9); 
+    border-radius:50%;
+}
+
+#hour-position{
+    background-color: black;
+    position: relative;
+    top: 100px;
+    left: 75px;
+    height:7px;
+    width:85px;
+}
+
+#minute-position{
+ background-color: black;
+ position: relative;
+ top: 20px; 
+ left: 90px;
+ height: 95px;
+ width:7px;
+}
+
+
+#clock-position{
+    float: left;
+    position: relative;
+}
+
+.point-position{
+    position: relative;
+}
+
+.point-position:nth-child(1){
+     top: 155px; left: 90px;
+ }
+.point-position:nth-child(2){
+     top: 95px; left: 10px;
+}
+.point-position:nth-child(3){
+     top: 2px; left:180px;
+}
+.point-position:nth-child(4){
+     top: 70px; left: 95px;
+}
+
+
+
+
+
+#clock-transform{
+    float: right;
+    margin-right:70%
+}
+
+#hour-transform{
+    background-color: black;
+    height: 7px;
+    width: 80px;
+    transform:translate(100%, 1250%);
+}
+
+#minute-transform{
+    background-color: black;
+    height: 8px;
+    width: 85px;
+    transform:translate(60%, 700%) rotate(90deg);
+
+}
+
+.point-transform:nth-child(1){
+transform: rotate(28deg) translate(300px) rotate(-28deg);
+}
+.point-transform:nth-child(2){
+transform: rotate(28deg) translate(150px) rotate(-60deg);
+}
+.point-transform:nth-child(3){
+    transform: rotate(82deg) translate(75px) rotate(-80deg);
+}
+.point-transform:nth-child(4){
+    transform: rotate(-6deg) translate(90px) rotate(15deg);
+}

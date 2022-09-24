@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<style> 
+  .greentext{
+    color: green;
+  }
+</style>
+<body> <!--вказуємо стильовий клас css-->
+    
+  <table 
+  border="1"
+  width="100%" height="200" 
+
+  > <!--таблица-->
+  <col style="width:30%">
+  <col style="width:30%">
+  <col style="width:20%">
+  <col style="width:20%"> <!--ширина столбцов-->
+
+  <tr class="color1"> <!-- 1 строка таблицы-->
+    <td class="greentext"  align="center" colspan="2" rowspan="2">Когай</td><!--столбец с данными--> <!--объединение по горизонтали-->
+    <td class="greentext"  align="center">Ірина</td> <!--зміна коліру-->
+    <td class="greentext"  align="center">Миколаївна</td>   
+  </tr>
+
+  <tr > <!-- 2 строка таблицы-->
+    <td> </td>
+    <td> </td>
+  </tr>
+
+  <tr class="color2"> <!-- 3 строка таблицы-->
+    <td class="greentext" align="center" colspan="2">IO-05</td>
+    <td class="greentext" align="center">Лабораторна №2</td>
+    <td class="greentext" align="center" colspan="2" rowspan="2">Варіант №47</td>
+  </tr>
+
+
+  <tr> <!-- 4 строка таблицы-->
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+
+  </table>
+
+
+
+<div class="clock" id="clock-position">
+<div id="hour-position"></div>
+<div id="minute-position"></div>
+
+<div class="point point-position"></div>
+<div class="point point-position"></div>
+<div class="point point-position"></div>
+<div class="point point-position"></div>
+</div>
+
+
+
+<div class="clock" id="clock-transform">
+<div id="hour-transform"></div>
+<div id="minute-transform"></div>
+
+<div class="point point-transform"></div>
+<div class="point point-transform"></div>
+<div class="point point-transform"></div>
+<div class="point point-transform"></div>
+</div>
+
+
+
+</body>
+</html>
